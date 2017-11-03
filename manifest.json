@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "モナチェッカー",
+  "version": "0.1.0",
+  "description": "現在のMONA/JPYを表示",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons" : {
+    "128": "icon.png"
+  }
+}

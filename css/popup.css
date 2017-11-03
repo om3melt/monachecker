@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 200px;
+  height: 250px;
+  color: rgba(55,55,55,1);
+  background-color: #fff;
+  overflow-x: hidden;
+  font-family: Arial, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+ul,li {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  list-style: none;
+}
+header {
+  width: 100%;
+  height: 45px;
+  background-color: #22ac38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 128px;
+  height: 23px;
+}
+.coinimg {
+  margin: 12px 0px 6px 0;
+  width: 100%;
+  text-align: center;
+}
+.coinimg img {
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+}
+.pricebox {
+  width: 100%;
+  text-align: center;
+}
+.mona {
+  font-size: 14px;
+}
+.mona span {
+  margin-right: 2px;
+  font-size:18px;
+}
+.r90 {
+  display: inline-block;
+  transform: rotateZ(90deg);
+}
+#monajpy {
+  text-align: center;
+  font-size: 46px;
+}
+#yen {
+  font-size:26px;
+}
+#float {
+  font-size:26px;
+}
